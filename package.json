@@ -1,0 +1,21 @@
+{
+  "name": "morfeo",
+  "version": "1.0.0",
+  "description": "API REST with Nodejs,Express and MYSQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Daniel Alejo Alvarez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
